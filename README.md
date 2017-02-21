@@ -25,10 +25,5 @@ To complete this evaluation, you need to:
   representation.
 * Add functionality for deleting a car through the REST API.
 * Add functionality for viewing a JSON representation of a single car.
-
-## Bonus
-
-For bonus points:
-
 * Write unit tests, ideally before the code itself.
 * Rewrite views as class-based views. Even better: use built-in generic views.
