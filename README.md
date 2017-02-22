@@ -1,6 +1,6 @@
 
 
-This is a Django project called ICDB, the Internet Car
+This is a Django project called Internet Car DB, the Internet Car
 Database, which is a database of cars exposed through a REST API.
 
 The API is currently able to create and list cars using JSON representations.
@@ -17,13 +17,3 @@ Then, create the sqlite database and load sample data:
 Running tests:
     python manage.py test
 
-## Goals
-
-To complete this evaluation, you need to:
-
-* Add functionality for updating a car through the REST API by sending a JSON
-  representation.
-* Add functionality for deleting a car through the REST API.
-* Add functionality for viewing a JSON representation of a single car.
-* Write unit tests, ideally before the code itself.
-* Rewrite views as class-based views. Even better: use built-in generic views.
